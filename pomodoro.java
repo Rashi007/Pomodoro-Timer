@@ -1,12 +1,17 @@
-public class mainm {
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.SourceDataLine;
+import javax.swing.JOptionPane;
+public class pomodoro {
 
 	public static void main(String ar[]) throws LineUnavailableException, InterruptedException{
 		System.out.println("hi i am pomarodro timer");
 		while(true){
-			Thread.sleep(15000);
+			Thread.sleep(1500000);
 			sound();
 			JOptionPane.showMessageDialog(null,"break time :) :D");
-			Thread.sleep(3000);
+			Thread.sleep(300000);
 			sound();
 			JOptionPane.showMessageDialog(null,"start studying -_-");
 		}
