@@ -1,17 +1,14 @@
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.SourceDataLine;
-
-
 public class mainm {
 
 	public static void main(String ar[]) throws LineUnavailableException, InterruptedException{
+		System.out.println("hi i am pomarodro timer");
 		while(true){
-			Thread.sleep(1500000);
+			Thread.sleep(15000);
 			sound();
-			Thread.sleep(300000);
+			JOptionPane.showMessageDialog(null,"break time :) :D");
+			Thread.sleep(3000);
 			sound();
+			JOptionPane.showMessageDialog(null,"start studying -_-");
 		}
 	}
 	static void sound() throws LineUnavailableException{
